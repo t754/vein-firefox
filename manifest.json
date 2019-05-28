@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Vein firefox",
+  "version": "0.1.0",
+  "description": "share https://open.vein.space",
+  "icons": {
+    "48": "icons/vein-ff.svg"
+  },
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_icon": "icons/vein-ff.svg",
+    "default_title": "vein-firefox",
+    "default_popup": "popup/index.html"
+  }
+}
